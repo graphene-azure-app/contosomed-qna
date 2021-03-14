@@ -53,7 +53,8 @@
             "properties": {
                 "apiProperties": {
                     "qnaRuntimeEndpoint": "[concat('https://',reference(resourceId('Microsoft.Web/sites', parameters('appName'))).hostNames[0])]"
-                }
+                },
+                "customeSubDomainName": "[parameters('name')]"
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Web/Sites', parameters('appName'))]",
