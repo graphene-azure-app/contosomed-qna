@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "name": {
-        "value": "contosomed"
+        "value": "contoso-med"
       },
       "appName": {
-        "value": "contosomed"
+        "value": "contoso-med"
       },
       "sku": {
         "value": "F0"
