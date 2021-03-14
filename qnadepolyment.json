@@ -46,7 +46,7 @@
             "kind": "QnAMaker",
             "name": "[parameters('name')]",
             "apiVersion": "2017-04-18",
-            "location": "[parameters('location')]",
+            "location": "westus",
             "sku": {
                 "name": "[parameters('sku')]"
             },
