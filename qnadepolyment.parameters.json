@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "name": {
+        "value": "contosomed"
+      },
+      "appName": {
+        "value": "contosomed"
+      },
+      "sku": {
+        "value": "F0"
+      },
+      "azureSearchSku": {
+        "value": "free"
+      },
+      "searchHostingMode": {
+        "value": "Default"
+      }
+    }
+  }
